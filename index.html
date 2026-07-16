@@ -7,128 +7,171 @@
 <title>Tours Contigo | Viajes y Experiencias</title>
 
 <style>
+
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Arial',sans-serif;
 }
 
 body{
-    background:#f5f7fa;
-    color:#333;
+background:#f4f8fc;
+color:#333;
 }
 
-header{
-    background:linear-gradient(135deg,#0066cc,#ff8c00);
-    color:white;
-    padding:40px 20px;
-    text-align:center;
+.hero{
+min-height:100vh;
+background:
+linear-gradient(rgba(0,102,204,.75),rgba(255,140,0,.65)),
+url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e")
+center/cover;
+
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+color:white;
 }
 
-header h1{
-    font-size:38px;
-    margin-bottom:10px;
+.contenido{
+max-width:700px;
 }
 
-header p{
-    font-size:18px;
+.logo{
+font-size:45px;
+font-weight:bold;
+margin-bottom:15px;
+}
+
+.logo span{
+color:#ffb000;
+}
+
+.hero h1{
+font-size:38px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:20px;
+line-height:1.5;
 }
 
 .btn{
-    display:inline-block;
-    margin-top:20px;
-    padding:14px 25px;
-    background:#25D366;
-    color:white;
-    text-decoration:none;
-    border-radius:30px;
-    font-weight:bold;
+display:inline-block;
+margin-top:30px;
+padding:15px 30px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:50px;
+font-weight:bold;
+font-size:18px;
 }
 
 section{
-    padding:35px 20px;
-    max-width:1100px;
-    margin:auto;
+padding:40px 20px;
+max-width:1100px;
+margin:auto;
 }
 
 h2{
-    text-align:center;
-    color:#0066cc;
-    margin-bottom:25px;
+text-align:center;
+color:#0066cc;
+font-size:30px;
+margin-bottom:25px;
 }
 
 .card{
-    background:white;
-    padding:20px;
-    margin:15px 0;
-    border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,.1);
+background:white;
+padding:25px;
+border-radius:18px;
+box-shadow:0 8px 20px rgba(0,0,0,.1);
+margin-bottom:20px;
 }
 
-.card h3{
-    color:#ff8c00;
-    margin-bottom:10px;
-}
-
-footer{
-    background:#0066cc;
-    color:white;
-    text-align:center;
-    padding:20px;
-}
 </style>
 
 </head>
 
 <body>
+<div class="hero">
 
-<header>
-<h1>Tours Contigo</h1>
-<p>Viajes turísticos, excursiones y experiencias inolvidables</p>
+<div class="contenido">
 
-<a class="btn" href="#">
+<div class="logo">
+Tours <span>Contigo</span>
+</div>
+
+<h1>Viaja, descubre y crea recuerdos inolvidables</h1>
+
+<p>
+Experiencias turísticas, excursiones y viajes express
+con la seguridad y confianza que mereces.
+</p>
+
+
+<a class="btn" href="https://wa.me/5210000000000">
 Reservar por WhatsApp
 </a>
 
-</header>
+
+</div>
+
+</div>
+
+
 <section>
+
 <h2>Próximos viajes</h2>
 
+
 <div class="card">
-<h3>Veracruz Día de Muertos 2026</h3>
+
+<h3>🌺 Veracruz Día de Muertos 2026</h3>
+
 <p>
-Disfruta una experiencia única visitando Puerto de Veracruz,
-Xalapa, campos de cempasúchil, San Juan de Ulúa,
-malecón y desfile de catrinas.
+Vive una experiencia única del 30 de octubre al 2 de noviembre 2026.
 </p>
-<p><strong>Fecha:</strong> 30 de octubre al 2 de noviembre 2026</p>
-<p><strong>Precio:</strong> $4,399 por persona</p>
+
+<p>
+Incluye visitas a Puerto de Veracruz, Xalapa,
+San Juan de Ulúa, malecón y desfile de catrinas.
+</p>
+
+<h3>$4,399 por persona</h3>
+
 </div>
 
 
 <div class="card">
-<h3>Próximas aventuras</h3>
+
+<h3>🌎 Nuevos destinos próximamente</h3>
+
 <p>
-Muy pronto estaremos anunciando nuevos destinos,
-playas, pueblos mágicos y experiencias turísticas.
+Estamos preparando nuevas aventuras,
+playas y pueblos mágicos para ti.
 </p>
+
 </div>
+
 
 </section>
-
-
 <section>
 
-<h2>¿Por qué viajar con nosotros?</h2>
+<h2>¿Por qué elegir Tours Contigo?</h2>
 
 <div class="card">
+
 <p>
-✅ Transporte turístico cómodo y seguro<br>
+✅ Viajes turísticos organizados<br>
 ✅ Atención personalizada<br>
-✅ Experiencias planeadas para disfrutar<br>
-✅ Viajes familiares y grupos
+✅ Experiencias para familias y grupos<br>
+✅ Compromiso con la seguridad y comodidad de nuestros viajeros
 </p>
+
 </div>
 
 </section>
@@ -139,8 +182,9 @@ playas, pueblos mágicos y experiencias turísticas.
 <h2>Contáctanos</h2>
 
 <div class="card">
+
 <p>
-Reserva tu próximo viaje con Tours Contigo.
+📲 Reserva tu próximo viaje con nosotros.
 </p>
 
 <p>
@@ -148,20 +192,22 @@ Facebook: Tours Contigo
 </p>
 
 <p>
-WhatsApp: Reserva aquí tu lugar
+¡Estamos listos para llevarte a conocer nuevos lugares!
 </p>
 
 </div>
 
 </section>
-<footer>
+
+
+<footer style="background:#0066cc;color:white;text-align:center;padding:25px;">
 
 <p>
 © 2026 Tours Contigo
 </p>
 
 <p>
-Viaja, conoce y crea recuerdos
+Viaja con nosotros y vive la experiencia
 </p>
 
 </footer>
